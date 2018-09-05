@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "provision-site-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/provisionSite/ProvisionSiteWebPart.js",
+          "manifest": "./src/webparts/provisionSite/ProvisionSiteWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ProvisionSiteWebPartStrings": "lib/webparts/provisionSite/loc/{locale}.js"
+  }
+}

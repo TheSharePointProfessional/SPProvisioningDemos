@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2017/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.18.1709.0, Culture=neutral, PublicKeyToken=null" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-C48352C25A6F435F970F19D25D794FB0">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-C48352C25A6F435F970F19D25D794FB0" Version="1" Scope="RootSite"> <!--BaseSiteTemplate="GROUP#0" -->
+      <pnp:WebSettings NoCrawl="false" WelcomePage="SitePages/HomePnP.aspx" />
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="HomePnP.aspx" PromoteAsNewsArticle="false" Overwrite="true">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Text" ControlId="5f370a9b-9406-4836-9dba-a8a3335c88e7" Column="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;h2&gt;Welcome to our Ignite team site!&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Welcome and hopefully you enjoy our new and improved global Intranet. You can find instructions and guidance from our centralized &lt;a href=&quot;http://www.google.com&quot; target=&quot;_blank&quot;&gt;Knowledge Center&lt;/a&gt;.&lt;/p&gt;&#xA;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="TwoColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="BingMap" JsonControlData="{&quot;pushPins&quot;:[{&quot;location&quot;:{&quot;latitude&quot;:28.4259,&quot;longitude&quot;:-81.4704,&quot;altitude&quot;:0,&quot;altitudeReference&quot;:-1},&quot;defaultTitle&quot;:&quot;Orange County Convention Center&quot;,&quot;defaultAddress&quot;:&quot;Orange County Convention Center, Orlando, Florida, United States&quot;,&quot;title&quot;:&quot;Orange County Convention Center&quot;,&quot;address&quot;:&quot;Orange County Convention Center, Orlando, Florida, United States&quot;}],&quot;maxNumberOfPushPins&quot;:1,&quot;shouldShowPushPinTitle&quot;:true,&quot;zoomLevel&quot;:12,&quot;mapType&quot;:&quot;road&quot;,&quot;center&quot;:{&quot;latitude&quot;:28.4259,&quot;longitude&quot;:-81.4704,&quot;altitude&quot;:0,&quot;altitudeReference&quot;:-1},&quot;title&quot;:&quot;Our Office&quot;}" ControlId="e377ea37-9047-43b9-8cdb-a761be2f8e09" Column="1" />
+                <pnp:CanvasControl WebPartType="Text" ControlId="5f370a9b-9406-4836-9dba-a8a3335c88e7" Column="2" Order="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Text" Value="&lt;h2&gt;Content Management&lt;/h2&gt;&lt;p&gt;Test out our easy to use, default content web part.&lt;/p&gt;" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="3" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="SiteActivity" JsonControlData="{&quot;maxItems&quot;:8}" ControlId="7ee16143-e81a-4ed6-8cc5-a359bd364ba5" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
