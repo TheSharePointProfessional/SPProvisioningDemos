@@ -12,8 +12,8 @@
       "url": "https://pixelmilldev1.sharepoint.com/sites/cdn/Site%20Assets/pm-logo.png"
     },
     {
-      verb: "setSiteExternalSharingCapability", 
-      capability: "ExistingExternalUserSharingOnly" /* sharing only with existing external users in your directory */
+      "verb": "setSiteExternalSharingCapability", 
+      "capability": "ExistingExternalUserSharingOnly" /* sharing only with existing external users in your directory */
     },
     {
       "verb": "createSiteColumn",

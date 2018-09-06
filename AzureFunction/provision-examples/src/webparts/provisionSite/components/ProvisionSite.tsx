@@ -76,6 +76,8 @@ export default class ProvisionSite extends React.Component<IProvisionSiteProps, 
         // Log the result in the console for testing purposes
         console.log("what was returned after posting a contract");
         console.log(json);
+
+        this.setState({status: "Success! site added"});
       })
       .catch(error => {
         console.error(error);
